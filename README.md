@@ -18,7 +18,7 @@ of instances trying to access this instance their requests will be
 processed one at a time. If you use a bucket, on the other hand, all
 instances will be able to issue requests at the same time.
 
-# Why?
+## Why?
 With these blocks it is possible to build workflows with multiple
 load-balanced groups of instances and queues that would otherwise take
 a long time to implement, deploy, and make changes to.
